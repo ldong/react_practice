@@ -241,7 +241,7 @@ var newMessagesArray = reactJSX.state.messages.concat("New Item!");
 reactJSX.setState({ messages: newMessagesArray });
 ```
 
-See [demo](https://jsfiddle.net/ldong/8edf3adf/)
+See [Demo](https://jsfiddle.net/ldong/8edf3adf/)
 
 Notes:
 
@@ -350,7 +350,7 @@ Most of guys in React Team were from Apple, so, consequently, no surprises.
 
 jQuery and Firebase is used
 
-[demo](https://jsfiddle.net/ldong/osuye4qd/3/)
+[Demo](https://jsfiddle.net/ldong/osuye4qd/3/)
 
 ### Updating
 
@@ -413,6 +413,10 @@ npm install reactify
 Note:
 
 * Run `ulimit -n 10000` if you run into Error: EMFILE
+
+### Gulp
+
+[Demo](./gulp-demo)
 
 # Reference
 
