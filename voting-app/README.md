@@ -2,8 +2,26 @@
 
 1. `npm install`
 
-2. `npm start`
+2. `gulp` or `gulp serve`
 
-3. `python -m SimpleHTTPServer 8080`
 
-4. open [http://localhost:8080/](http://localhost:8080/)
+## Thought Process
+
+### Mockup Goal
+
+![](./mockup.png)
+
+### Structure Breakdown
+
+```
+<Feed>
+
+  <ShowAddButton />
+  <FeedForm />
+
+  <FeedList>
+    <FeedItem />
+  </FeedList>
+
+</Feed>
+```
