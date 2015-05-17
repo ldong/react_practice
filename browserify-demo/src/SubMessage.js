@@ -1,15 +1,17 @@
+var React = require('react');
+
 var SubMessage = React.createClass({
   getDefaultProps: function(){
     return {
       message: 'Its good to see you'
     }
   },
-  
+
   handleDelete: function(e){
 //      console.log(this.props);
       this.props.onDelete(this.props.message);
   },
-  
+
   render: function(){
     return (
 		<div>
@@ -20,3 +22,4 @@ var SubMessage = React.createClass({
   }
 });
 
+module.exports = SubMessage;

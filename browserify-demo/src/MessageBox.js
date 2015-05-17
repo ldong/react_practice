@@ -1,3 +1,6 @@
+var React = require('react');
+var SubMessage = require('./SubMessage');
+
 var MessageBox = React.createClass({
   getInitialState: function(){
     return {
@@ -54,3 +57,4 @@ var MessageBox = React.createClass({
   }
 });
 
+module.exports = MessageBox;

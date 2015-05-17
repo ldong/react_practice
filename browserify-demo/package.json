@@ -1,19 +1,23 @@
 {
-  "name": "react",
+  "name": "react-demo",
   "version": "1.0.0",
   "description": "Notes I took along while learning `Getting Started With React.js`",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "jsx --watch src/ build/"
+    "start": "browserify -t reactify src/app.js > build/app.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "react-tools": "^0.13.3"
+    "react-tools": "^0.13.3",
+    "reactify": "^1.1.1"
   },
   "repository": {
     "type": "git",
     "url": "http://github.com/npm/npm.git"
+  },
+  "dependencies": {
+    "react": "^0.13.3"
   }
 }

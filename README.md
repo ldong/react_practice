@@ -405,8 +405,14 @@ jsx --watch src/ build/
 
 ```bash
 npm install -g browserify
+npm install reactify
 ```
 
+[Demo](./browserify-demo)
+
+Note:
+
+* Run `ulimit -n 10000` if you run into Error: EMFILE
 
 # Reference
 
