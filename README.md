@@ -399,9 +399,13 @@ mkdir src build
 jsx --watch src/ build/
 ```
 
-[Demo]()
+[Demo](./react-tools-demo)
 
 ### Browserify
+
+```bash
+npm install -g browserify
+```
 
 
 # Reference
