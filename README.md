@@ -418,10 +418,18 @@ Note:
 
 [Demo](./gulp-demo)
 
+### Voting System Static
+
+[Demo](./voting-app-static)
+
 ### Voting System
 
 [Demo](./voting-app)
 
+
+###
+
+Keys allow us to void duplicates
 
 # Reference
 
